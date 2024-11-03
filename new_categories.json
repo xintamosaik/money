@@ -6,7 +6,8 @@
         "To EUR Debt "
     ],
     "exchange": [
-        "To EUR"
+        "To EUR",
+        "Travel Partner Exchange U"
     ],
     "unknown": [
         "Revolut Ltd",
@@ -16,7 +17,9 @@
         "Robert Dyas",
         "Selecta",
         "PAUL",
-        "Retail inMotion"
+        "Retail inMotion",
+        "Gustav Gr\u00fcn",
+        "Fondation Dentreprise Lo"
     ],
     "money": [
         "Card Delivery Fee"
@@ -28,14 +31,17 @@
         "To Yasmin Behrens",
         "To Anna Dellbr\u00fcgge",
         "Payment from Yasmin Behrens",
-        "Payment from Yasmin Behrens"
+        "Payment from Yasmin Behrens",
+        "Payment from Monika Dellbrugge",
+        "To Monika Dellbr\u00fcgge"
     ],
     "transfer": [
         "To Ulf Dellbr\u00fcgge",
         "To Ulf Dellbr\u00fcgge"
     ],
     "insurance": [
-        "To R+V Allgemeine Vers. AG"
+        "To R+V Allgemeine Vers. AG",
+        "To Adam Riese GmbH"
     ],
     "health": [
         "dm drogerie"
@@ -53,10 +59,23 @@
         "Falafel Stop",
         "Kampai Sushi",
         "Tesco",
-        "First Apron"
+        "First Apron",
+        "B\u00e4ckerei Wilhelm Middelberg",
+        "Grave Der Baecker",
+        "EDEKA",
+        "Henne Caf\u00e9bar",
+        "Eatalio",
+        "Green Leaf Caf\u00e9",
+        "Cuisine De Liban",
+        "Espress Mo",
+        "YORMA'S",
+        "Kamps",
+        "Nordsee"
     ],
     "electronics": [
-        "MediaMarkt"
+        "MediaMarkt",
+        "Amazon",
+        "WHSmith"
     ],
     "travel": [
         "VRR Verkehrsverbund Rhein-Ruhr",
@@ -67,11 +86,16 @@
         "Transport for London",
         "Transport for London",
         "Transport for London",
-        "Transport for London"
+        "Transport for London",
+        "Markant Tankstelle",
+        "mobil.nrw",
+        "Holland Hotel Inn",
+        "Hotels"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
-        "Cash at Spk Vest Recklinghause"
+        "Cash at Spk Vest Recklinghause",
+        "Cash at Postbank Martinistr. 1"
     ],
     "clothing": [
         "H&M",
@@ -81,7 +105,10 @@
         "Spotify",
         "Resident Advisor",
         "fabric London",
-        "Discover.London"
+        "Discover.London",
+        "Nintendo",
+        "Netflix",
+        "Nintendo"
     ],
     "games": [
         "gog.com",
@@ -92,5 +119,10 @@
     ],
     "funriture": [
         "IKEA"
+    ],
+    "it": [
+        "Google",
+        "Apple",
+        "Google"
     ]
 }
