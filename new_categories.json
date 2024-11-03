@@ -33,7 +33,10 @@
         "Advertising Online",
         "Naturata",
         "J.k. Handels",
-        "Theodor-Heuss-Platz 2"
+        "Theodor-Heuss-Platz 2",
+        "HERING",
+        "The Entertainer",
+        "Sahara"
     ],
     "money": [
         "Card Delivery Fee"
@@ -49,7 +52,11 @@
         "Payment from Yasmin Behrens",
         "Payment from Monika Dellbrugge",
         "To Monika Dellbr\u00fcgge",
-        "To Ahmad Salimi"
+        "To Ahmad Salimi",
+        "Payment from Ulrich Dellbrugge",
+        "Michellehennig",
+        "Miriamrzepka",
+        "Payment from Marzieh Habibi"
     ],
     "transfer": [
         "To Ulf Dellbr\u00fcgge",
@@ -64,7 +71,12 @@
         "dm drogerie",
         "Ardo Medical",
         "Apotheke im Hauptbahnhof",
-        "Healthy Gamer"
+        "Healthy Gamer",
+        "Kuniberti Apotheke",
+        "Apo. Am Rathausplatz",
+        "ROSSMANN",
+        "Zahnarztpraxis Farivar",
+        "M\u00fcnster Apotheke"
     ],
     "food": [
         "Lieferando",
@@ -125,7 +137,36 @@
         "Der gute B\u00e4cker Krimphove",
         "Combi",
         "Coors bakery and cafe",
-        "Der Meister"
+        "Der Meister",
+        "Antalya Doener",
+        "Antalya Doener",
+        "Marktkauf",
+        "MALZERS Backstube",
+        "MALZERS Backstube",
+        "Takeaway.com",
+        "Haus Des Doeners",
+        "Durmus Uysal Bal Kof",
+        "Han Restaurant",
+        "Hotone Sagt Danke",
+        "Frittenwerk",
+        "dott",
+        "dott",
+        "Bistro Essart Gmbh &am",
+        "Birdie",
+        "Markthalle Bankstrasse",
+        "Bistro Essart Gmbh &am",
+        "Vegan Land Rath",
+        "Spc Prinz Restaurant",
+        "Vegan Land Rath",
+        "Nebu Sushi & More",
+        "Banh Boyo",
+        "Loeffelbar",
+        "Quarter Bakery",
+        "Banh Boyo",
+        "Scilacci Gastronomie G",
+        "Valinso",
+        "Marugame Udon",
+        "Quarter Bakery"
     ],
     "electronics": [
         "MediaMarkt",
@@ -162,19 +203,38 @@
         "TIER",
         "British Airways",
         "Holland In Hotel",
-        "To DB Vertrieb GmbH"
+        "To DB Vertrieb GmbH",
+        "De Ride Cost",
+        "Sky Train Airport Station",
+        "Autohof Hohenstein",
+        "Europcar",
+        "Hpl Olympia",
+        "hotels.com",
+        "Shell",
+        "Hotel Nobis Asten",
+        "Esso"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
         "Cash at Spk Vest Recklinghause",
         "Cash at Postbank Martinistr. 1",
         "Cash at Ic Cash 01011201",
-        "Cash at Commerzbank 00202070"
+        "Cash at Commerzbank 00202070",
+        "Cash at Marktplatz 9",
+        "Cash at 49005362 Parez Kiosk",
+        "Cash at Ic Cash 01011914",
+        "Cash at 49004956 Wehrhahn Shop",
+        "Cash at Transact 22208482",
+        "Cash at *deutsche Bank Ag",
+        "Cash at Transact 22208330",
+        "Cash at *deutsche Bank Ag",
+        "Cash at Transact 22207895"
     ],
     "clothing": [
         "H&M",
         "Primark",
-        "C&A"
+        "C&A",
+        "UNIQLO"
     ],
     "fun": [
         "Spotify",
@@ -187,11 +247,19 @@
         "Amazon Prime",
         "No.1 Harbourside",
         "No.1 Harbourside",
-        "No.1 Harbourside"
+        "No.1 Harbourside",
+        "itch.io",
+        "Crunchyroll",
+        "Vue Cinemas",
+        "Smyths Toys Superstores"
     ],
     "games": [
         "gog.com",
-        "Nexus Mods"
+        "Nexus Mods",
+        "Epic Games Store",
+        "Google Play",
+        "Steam",
+        "Steam"
     ],
     "rent": [
         "To Ulrich Kn\u00fcmann",
@@ -206,14 +274,25 @@
         "Google",
         "Google Drive",
         "GitHub",
-        "OpenAI"
+        "OpenAI",
+        "DigitalOcean",
+        "DigitalOcean",
+        "To Netcup GmbH"
     ],
     "misc": [
         "To Stadt Recklinghausen",
-        "Haarstyle By Denise"
+        "Haarstyle By Denise",
+        "ImmoScout24",
+        "ImmoScout24",
+        "Michailidis Zeitschrif",
+        "Vitty777",
+        "Barbier Soran Duessel"
     ],
     "tax": [
-        "To GC re STEUERBOT"
+        "To GC re STEUERBOT",
+        "Buhl Data Se",
+        "To Steuerbot GmbH",
+        "Payment from Steuerverwaltung Nrw"
     ],
     "energy": [
         "To Vattenfall",
@@ -225,6 +304,9 @@
     ],
     "communication": [
         "To Telekom Deutschland GmbH",
-        "DHL"
+        "DHL",
+        "To 1&1 Mail & Media GmbH",
+        "To BID Bayerischer Inkasso Dienst GmbH",
+        "Deutsche Post"
     ]
 }
