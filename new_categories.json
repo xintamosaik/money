@@ -1,5 +1,20 @@
 {
     "savings": [
-        "To EUR Moving"
+        "To EUR Moving",
+        "To EUR Debt ",
+        "To EUR Debt ",
+        "To EUR Debt "
+    ],
+    "exchange": [
+        "To EUR"
+    ],
+    "unknown": [
+        "Revolut Ltd"
+    ],
+    "money": [
+        "Card Delivery Fee"
+    ],
+    "payment": [
+        "Payment from Qanuk Gmbh"
     ]
 }
