@@ -1,26 +1,10 @@
-# grab a file named money.csv
-
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
 
-# read the file
+# Load the data and prepare initial categories
 df = pd.read_csv('money.csv')
-
-
-
-
-# I want to find out where I can save money
-# So where is the money going to?
-
-# We need to prepare the data for analysis
-# Before we drop anything, let's categorize the data
-
-# This is where the output from the last line appears for new categories
-
 df['Category'] = 'Other'
 
-
+# Define initial categories with keywords
 categories = {
     'travel': ['FlixBus', 'Ampido', 'Deutsche Bahn', 'VRR', 'Rheinbahn', 'Interparking Cob Xenti'],
     'food': ['Aldi', 'Rewe', 'Lidl', 'Uber Eats', 'Trinkhalle Dinoya', 'Kaufland', 'Bistro Essart Gmbh & C'],
@@ -35,23 +19,22 @@ categories = {
     'energy': ['To Tibber Deutschland GmbH'],
 }
 
+# Automatically categorize known keywords
 for category, keywords in categories.items():
     df.loc[df['Description'].isin(keywords), 'Category'] = category.capitalize()
 
+# Manual categorization for 'Other' rows
+other_rows = df[df['Category'] == 'Other']
 
-print (df[df['Category'] == 'Other'].tail(10))
-
-# Ask me for the last line if it fits a category, then save the category to a json file
-
-while True:
-    print('Enter the category for the following description:')
-    print(df[df['Category'] == 'Other'].tail(1))
-    category = input()
+for idx, row in other_rows.iterrows():
+    print(f"\nDescription: {row['Description']}")
+    category = input("Enter the category (or type 'skip' to ignore, 'exit' to stop): ").strip().lower()
+    
     if category == 'exit':
         break
-    # add it to memory and later save it to file
-    df.loc[df['Category'] == 'Other', 'Category'] = category.capitalize()
+    elif category != 'skip':
+        df.at[idx, 'Category'] = category.capitalize()  # Update the row with the entered category
 
-# save the categories to a file
+# Save the categorized data to a new CSV
 df.to_csv('money_categorized.csv', index=False)
-
+print("\nSaved the categorized data to 'money_categorized.csv'")
