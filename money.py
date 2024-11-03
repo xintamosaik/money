@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import os
 
+
 # Load the data
 df = pd.read_csv('money.csv')
 df['Category'] = 'Other'
@@ -75,6 +76,21 @@ else:
 
 
 # clear data from categories "personal, unknown and tax"
+
+# get the first date and the last date
+first_date = df['Started Date'].min()
+last_date = df['Started Date'].max()
+print (f"\nFirst date: {first_date}")
+print (f"Last date: {last_date}")
+# how many years, months and days between the first and the last date
+first_date = pd.to_datetime(first_date)
+last_date = pd.to_datetime(last_date)
+days = (last_date - first_date).days
+years = days // 365
+months = (days % 365) // 30
+days = (days % 365) % 30
+print (f"\nBetween {first_date} and {last_date} there are {years} years, {months} months and {days} days")
+
 total_rows_total = df.shape[0]
 print (f"\nTotal rows: {total_rows_total}")
 df = df[df['Category'] != 'Personal']
@@ -116,4 +132,4 @@ print("\nExpenses by category:")
 # print only the amounts and the percentages 
 print(expenses_by_category[['Amount', 'Percentage']])
 
-# save the updated data
+
