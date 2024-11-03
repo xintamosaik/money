@@ -21,7 +21,11 @@
         "Gustav Gr\u00fcn",
         "Fondation Dentreprise Lo",
         "Minimal",
-        "Mitchell Fielde"
+        "Mitchell Fielde",
+        "John Lewis",
+        "Harris + Hoole",
+        "Werner",
+        "PayPal"
     ],
     "money": [
         "Card Delivery Fee"
@@ -89,7 +93,11 @@
         "Greggs",
         "Pret",
         "Netto Marken-Discount",
-        "Noahs Place Reckl"
+        "Noahs Place Reckl",
+        "Shawa",
+        "Dali Dorsten",
+        "Die Backerei Hovelmann E.",
+        "Mr. Wasabi"
     ],
     "electronics": [
         "MediaMarkt",
@@ -119,13 +127,17 @@
         "Voi De",
         "Voi De",
         "Voi De",
-        "Voi De"
+        "Voi De",
+        "TotalEnergies",
+        "TIER",
+        "TIER"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
         "Cash at Spk Vest Recklinghause",
         "Cash at Postbank Martinistr. 1",
-        "Cash at Ic Cash 01011201"
+        "Cash at Ic Cash 01011201",
+        "Cash at Commerzbank 00202070"
     ],
     "clothing": [
         "H&M",
@@ -150,7 +162,8 @@
         "Nexus Mods"
     ],
     "rent": [
-        "To Ulrich Kn\u00fcmann"
+        "To Ulrich Kn\u00fcmann",
+        "Payment from Ulrich Knuemann"
     ],
     "funriture": [
         "IKEA"
@@ -167,5 +180,12 @@
     ],
     "tax": [
         "To GC re STEUERBOT"
+    ],
+    "energy": [
+        "To Vattenfall"
+    ],
+    "gez": [
+        "To Rundfunk ARD, ZDF, DRadio",
+        "To Westdeutscher Rundfunk"
     ]
 }
