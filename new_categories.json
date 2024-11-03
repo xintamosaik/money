@@ -9,7 +9,8 @@
         "To EUR",
         "Travel Partner Exchange U",
         "Exchanged to GBP",
-        "Revolut Ltd"
+        "Revolut Ltd",
+        "Exchanged to EUR"
     ],
     "unknown": [
         "Daniel Goldmann",
@@ -41,7 +42,8 @@
     ],
     "payment": [
         "Payment from Qanuk Gmbh",
-        "Payment from Matthias Lehwald"
+        "Payment from Matthias Lehwald",
+        "Payment from Iq Digital Media Marketing Gmbh"
     ],
     "personal": [
         "To Yasmin Behrens",
@@ -62,7 +64,8 @@
     ],
     "transfer": [
         "To Ulf Dellbr\u00fcgge",
-        "To Ulf Dellbr\u00fcgge"
+        "To Ulf Dellbr\u00fcgge",
+        "Payment from Ulf Dellbrugge"
     ],
     "insurance": [
         "To R+V Allgemeine Vers. AG",
@@ -79,7 +82,10 @@
         "ROSSMANN",
         "Zahnarztpraxis Farivar",
         "M\u00fcnster Apotheke",
-        "Pharma-Ko\u00b3 Apotheke"
+        "Pharma-Ko\u00b3 Apotheke",
+        "Evo Payments",
+        "Fielmann",
+        "Center Apotheke E."
     ],
     "food": [
         "Lieferando",
@@ -177,7 +183,14 @@
         "B\u00e4ckerei B\u00fcsch",
         "Kenny S Kitchen",
         "Baba Pizza Gri",
-        "DELiWAY"
+        "DELiWAY",
+        "Aldi",
+        "Kaufland",
+        "Lidl",
+        "Rewe",
+        "Uber Eats",
+        "Bistro Essart Gmbh & C",
+        "Trinkhalle Dinoya"
     ],
     "electronics": [
         "MediaMarkt",
@@ -226,7 +239,13 @@
         "Esso",
         "BlaBlaCar",
         "Expedia",
-        "DFDS"
+        "DFDS",
+        "Deutsche Bahn",
+        "FlixBus",
+        "SNCB",
+        "Interparking Cob Xenti",
+        "Rheinbahn",
+        "Ampido"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
@@ -270,7 +289,8 @@
         "Crunchyroll",
         "Vue Cinemas",
         "Smyths Toys Superstores",
-        "Kettelerhof"
+        "Kettelerhof",
+        "YouTube"
     ],
     "games": [
         "gog.com",
@@ -282,7 +302,8 @@
     ],
     "rent": [
         "To Ulrich Kn\u00fcmann",
-        "Payment from Ulrich Knuemann"
+        "Payment from Ulrich Knuemann",
+        "To Eduard Koch"
     ],
     "funriture": [
         "IKEA"
@@ -297,7 +318,8 @@
         "DigitalOcean",
         "DigitalOcean",
         "To Netcup GmbH",
-        "Google One"
+        "Google One",
+        "Microsoft"
     ],
     "misc": [
         "To Stadt Recklinghausen",
@@ -318,7 +340,8 @@
     ],
     "energy": [
         "To Vattenfall",
-        "To Vattenfall Europe"
+        "To Vattenfall Europe",
+        "To Tibber Deutschland GmbH"
     ],
     "gez": [
         "To Rundfunk ARD, ZDF, DRadio",
@@ -330,6 +353,13 @@
         "To 1&1 Mail & Media GmbH",
         "To BID Bayerischer Inkasso Dienst GmbH",
         "Deutsche Post",
-        "To Vodafone West GmbH"
+        "To Vodafone West GmbH",
+        "To Vodafone GmbH",
+        "To congstar - eine Marke der Telekom Deutschland GmbH"
+    ],
+    "debt": [
+        "To KfW Frankfurt",
+        "To Agentur F\u00fcr Arbeit",
+        "To Bundeskasse - Dienstort Halle (Darlehen)"
     ]
 }

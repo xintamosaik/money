@@ -8,17 +8,7 @@ df['Category'] = 'Other'
 
 # Define initial categories
 categories = {
-    'travel': ['FlixBus', 'Ampido', 'Deutsche Bahn', 'VRR', 'Rheinbahn', 'Interparking Cob Xenti'],
-    'food': ['Aldi', 'Rewe', 'Lidl', 'Uber Eats', 'Trinkhalle Dinoya', 'Kaufland', 'Bistro Essart Gmbh & C'],
-    'health': ['Center Apotheke E.', 'Fielmann', 'Evo Payments'],
-    'debt': ['To Agentur Für Arbeit', 'To KfW Frankfurt', 'To Bundeskasse - Dienstort Halle (Darlehen)'],
-    'communication': ['To Vodafone GmbH', 'To congstar - eine Marke der Telekom Deutschland GmbH'],
-    'rent': ['To Eduard Koch'],
-    'payment': ['Payment from Ulf Dellbrugge', 'Payment from Iq Digital Media Marketing Gmbh'],
-    'fun': ['YouTube', 'Microsoft'],
-    'exchange': ['Exchanged to EUR'],
-    'unknown': ['SNCB'],
-    'energy': ['To Tibber Deutschland GmbH'],
+   
 }
 
 # Load additional categories from JSON if the file exists
