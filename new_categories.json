@@ -46,7 +46,8 @@
         "To Adam Riese GmbH"
     ],
     "health": [
-        "dm drogerie"
+        "dm drogerie",
+        "Ardo Medical"
     ],
     "food": [
         "Lieferando",
@@ -82,7 +83,13 @@
         "McDonald's",
         "Eat a Pitta",
         "Sainsbury's",
-        "Shoryu Ramen Soho"
+        "Shoryu Ramen Soho",
+        "Whole Foods",
+        "Vina Gmbh Asia",
+        "Greggs",
+        "Pret",
+        "Netto Marken-Discount",
+        "Noahs Place Reckl"
     ],
     "electronics": [
         "MediaMarkt",
@@ -106,7 +113,13 @@
         "Hotel Westermann",
         "lastminute.com",
         "Leonardo Hotels",
-        "lastminute.com"
+        "lastminute.com",
+        "First Bus",
+        "Voi De",
+        "Voi De",
+        "Voi De",
+        "Voi De",
+        "Voi De"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
@@ -116,7 +129,8 @@
     ],
     "clothing": [
         "H&M",
-        "Primark"
+        "Primark",
+        "C&A"
     ],
     "fun": [
         "Spotify",
@@ -146,5 +160,12 @@
         "Apple",
         "Google",
         "Google Drive"
+    ],
+    "misc": [
+        "To Stadt Recklinghausen",
+        "Haarstyle By Denise"
+    ],
+    "tax": [
+        "To GC re STEUERBOT"
     ]
 }
