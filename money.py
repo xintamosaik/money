@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 
 # Load the data and prepare initial categories
 df = pd.read_csv('money.csv')
@@ -19,9 +20,12 @@ categories = {
     'energy': ['To Tibber Deutschland GmbH'],
 }
 
-# Automatically categorize known keywords
+# Categorize known keywords
 for category, keywords in categories.items():
     df.loc[df['Description'].isin(keywords), 'Category'] = category.capitalize()
+
+# Create a dictionary to store new categories
+new_categories = {}
 
 # Manual categorization for 'Other' rows
 other_rows = df[df['Category'] == 'Other']
@@ -33,8 +37,14 @@ for idx, row in other_rows.iterrows():
     if category == 'exit':
         break
     elif category != 'skip':
-        df.at[idx, 'Category'] = category.capitalize()  # Update the row with the entered category
+        # Update the DataFrame
+        df.at[idx, 'Category'] = category.capitalize()
+        
+        # Update the new_categories dictionary
+        if category not in new_categories:
+            new_categories[category] = []
+        new_categories[category].append(row['Description'])
 
-# Save the categorized data to a new CSV
-df.to_csv('money_categorized.csv', index=False)
-print("\nSaved the categorized data to 'money_categorized.csv'")
+# Save the new categories to a JSON file
+with open('new_categories.json', 'w') as json_file:
+    json.dump(new_categories, json_file, indent=4)
