@@ -74,19 +74,46 @@ else:
         json.dump(new_categories, json_file, indent=4)
 
 
-# get all the food categories
-food = df[df['Category'] == 'Food']
+# clear data from categories "personal, unknown and tax"
+total_rows_total = df.shape[0]
+print (f"\nTotal rows: {total_rows_total}")
+df = df[df['Category'] != 'Personal']
 
-print(food)
+total_rows_after_personal = df.shape[0]
+print (f"Total rows after removing 'Personal': {total_rows_after_personal}")
+df = df[df['Category'] != 'Unknown']
 
-# same for tax
-tax = df[df['Category'] == 'Tax']
+total_rows_after_unknown = df.shape[0]
+print (f"Total rows after removing 'Unknown': {total_rows_after_unknown}")
 
-print(tax)
+df = df[df['Category'] != 'Tax']
+total_rows_after_tax = df.shape[0]
+print (f"Total rows after removing 'Tax': {total_rows_after_tax}")
+# income
 
-# sum tax
-tax_sum = tax['Amount'].sum()
-print(tax_sum)
+income = df[df['Category'] == 'Payment']
+total_rows_income = income.shape[0]
+print (f"Total rows for 'Payment': {total_rows_income}")
+income_sum = income['Amount'].sum()
 
-food_sum = food['Amount'].sum()
-print(food_sum)
+print (f"\nTotal income: ${income_sum:.2f}")
+
+# expenses
+expenses = df[df['Category'] != 'Payment']
+total_rows_expenses = expenses.shape[0]
+
+print (f"Total rows for expenses: {total_rows_expenses}")
+expenses_sum = expenses['Amount'].sum()
+
+print (f"Total expenses: ${expenses_sum:.2f}")
+
+# percentages of expenses
+expenses_by_category = expenses.groupby('Category').sum()
+expenses_by_category['Percentage'] = expenses_by_category['Amount'] / expenses_sum * 100
+expenses_by_category = expenses_by_category.sort_values('Amount', ascending=False)
+
+print("\nExpenses by category:")
+# print only the amounts and the percentages 
+print(expenses_by_category[['Amount', 'Percentage']])
+
+# save the updated data
