@@ -12,7 +12,11 @@
         "Revolut Ltd",
         "Daniel Goldmann",
         "TEDi",
-        "Me Group Germany"
+        "Me Group Germany",
+        "Robert Dyas",
+        "Selecta",
+        "PAUL",
+        "Retail inMotion"
     ],
     "money": [
         "Card Delivery Fee"
@@ -43,7 +47,13 @@
         "REWE",
         "ALDI",
         "Cafe & Pavillion",
-        "Karadag Supermarkt"
+        "Karadag Supermarkt",
+        "Hausmann's",
+        "B\u00e4ckerei Terbuyken GmbH",
+        "Falafel Stop",
+        "Kampai Sushi",
+        "Tesco",
+        "First Apron"
     ],
     "electronics": [
         "MediaMarkt"
@@ -53,17 +63,25 @@
         "Eurowings",
         "St Christopher's Inn",
         "Voi Scooters",
-        "Voi Scooters"
+        "Voi Scooters",
+        "Transport for London",
+        "Transport for London",
+        "Transport for London",
+        "Transport for London"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
         "Cash at Spk Vest Recklinghause"
     ],
     "clothing": [
-        "H&M"
+        "H&M",
+        "Primark"
     ],
     "fun": [
-        "Spotify"
+        "Spotify",
+        "Resident Advisor",
+        "fabric London",
+        "Discover.London"
     ],
     "games": [
         "gog.com",
@@ -71,5 +89,8 @@
     ],
     "rent": [
         "To Ulrich Kn\u00fcmann"
+    ],
+    "funriture": [
+        "IKEA"
     ]
 }
