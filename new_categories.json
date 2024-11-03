@@ -19,7 +19,9 @@
     ],
     "personal": [
         "To Yasmin Behrens",
-        "To Anna Dellbr\u00fcgge"
+        "To Anna Dellbr\u00fcgge",
+        "Payment from Yasmin Behrens",
+        "Payment from Yasmin Behrens"
     ],
     "transfer": [
         "To Ulf Dellbr\u00fcgge",
@@ -32,6 +34,32 @@
         "dm drogerie"
     ],
     "food": [
-        "Lieferando"
+        "Lieferando",
+        "PENNY",
+        "Ditsch",
+        "REWE"
+    ],
+    "electronics": [
+        "MediaMarkt"
+    ],
+    "travel": [
+        "VRR Verkehrsverbund Rhein-Ruhr"
+    ],
+    "cash": [
+        "Cash at Sparkasse Osnabrueck",
+        "Cash at Spk Vest Recklinghause"
+    ],
+    "clothing": [
+        "H&M"
+    ],
+    "fun": [
+        "Spotify"
+    ],
+    "games": [
+        "gog.com",
+        "Nexus Mods"
+    ],
+    "rent": [
+        "To Ulrich Kn\u00fcmann"
     ]
 }
