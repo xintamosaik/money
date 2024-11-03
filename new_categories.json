@@ -35,7 +35,14 @@
         "Theodor-Heuss-Platz 2",
         "HERING",
         "The Entertainer",
-        "Sahara"
+        "Sahara",
+        "Daniel Goldmann",
+        "Daniel Goldmann",
+        "Mitchell Fielde",
+        "Epi Du Air",
+        "Daniel Goldmann",
+        "Daniel Goldmann",
+        "Epi Du Air"
     ],
     "money": [
         "Card Delivery Fee"
@@ -60,7 +67,10 @@
         "To AHMAD SALIMI",
         "Ersindalga",
         "Payment from Ulf Dellbr\u00fcgge",
-        "Payment from Anna Dellbrugge"
+        "Payment from Anna Dellbrugge",
+        "PayPal",
+        "PayPal",
+        "PayPal"
     ],
     "transfer": [
         "To Ulf Dellbr\u00fcgge",
@@ -190,13 +200,33 @@
         "Rewe",
         "Uber Eats",
         "Bistro Essart Gmbh & C",
-        "Trinkhalle Dinoya"
+        "Trinkhalle Dinoya",
+        "Selecta",
+        "Retail inMotion",
+        "Gustav Gr\u00fcn",
+        "Fondation Dentreprise Lo",
+        "Retail inMotion",
+        "Retail inMotion",
+        "Werner",
+        "Werner",
+        "Werner",
+        "Abs Wholesale",
+        "Naturata",
+        "J.k. Handels",
+        "Theodor-Heuss-Platz 2",
+        "HERING",
+        "HERING",
+        "Sahara"
     ],
     "electronics": [
         "MediaMarkt",
         "Amazon",
         "WHSmith",
-        "To Amazon Payments Europe S.C.A."
+        "To Amazon Payments Europe S.C.A.",
+        "Robert Dyas",
+        "John Lewis",
+        "Harris + Hoole",
+        "Robert Dyas"
     ],
     "travel": [
         "VRR Verkehrsverbund Rhein-Ruhr",
@@ -290,7 +320,8 @@
         "Vue Cinemas",
         "Smyths Toys Superstores",
         "Kettelerhof",
-        "YouTube"
+        "YouTube",
+        "The Entertainer"
     ],
     "games": [
         "gog.com",
@@ -330,7 +361,12 @@
         "Michailidis Zeitschrif",
         "Vitty777",
         "Barbier Soran Duessel",
-        "Amt Fuer Einwohnerwesen"
+        "Amt Fuer Einwohnerwesen",
+        "TEDi",
+        "TEDi",
+        "Marks & Spencer",
+        "Advertising Online",
+        "Mitchell Fielde"
     ],
     "tax": [
         "To GC re STEUERBOT",
