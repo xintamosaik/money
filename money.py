@@ -61,6 +61,11 @@ if os.path.exists('new_categories.json'):
     # Save the merged data back to the JSON file and remove duplicates
     with open('new_categories.json', 'w') as json_file:
         existing_data = {category: list(set(descriptions)) for category, descriptions in existing_data.items()}
+        # sort the dictionary
+        existing_data = dict(sorted(existing_data.items()))
+        # and the entries
+        for key, value in existing_data.items():
+            existing_data[key] = sorted(value)
         json.dump(existing_data, json_file, indent=4)
 
 else:
