@@ -7,7 +7,8 @@
     ],
     "exchange": [
         "To EUR",
-        "Travel Partner Exchange U"
+        "Travel Partner Exchange U",
+        "Exchanged to GBP"
     ],
     "unknown": [
         "Revolut Ltd",
@@ -25,7 +26,14 @@
         "John Lewis",
         "Harris + Hoole",
         "Werner",
-        "PayPal"
+        "PayPal",
+        "Epi Du Air",
+        "Marks & Spencer",
+        "Abs Wholesale",
+        "Advertising Online",
+        "Naturata",
+        "J.k. Handels",
+        "Theodor-Heuss-Platz 2"
     ],
     "money": [
         "Card Delivery Fee"
@@ -54,7 +62,9 @@
     ],
     "health": [
         "dm drogerie",
-        "Ardo Medical"
+        "Ardo Medical",
+        "Apotheke im Hauptbahnhof",
+        "Healthy Gamer"
     ],
     "food": [
         "Lieferando",
@@ -100,12 +110,28 @@
         "Shawa",
         "Dali Dorsten",
         "Die Backerei Hovelmann E.",
-        "Mr. Wasabi"
+        "Mr. Wasabi",
+        "Waitrose & Partners",
+        "Bosco Bath",
+        "Waitrose & Partners",
+        "Waitrose & Partners",
+        "Mokoko Coffee",
+        "Marche M\u00f6venpick",
+        "Leicester Square Yokocho",
+        "JOE & THE JUICE",
+        "Lizs Kitchen",
+        "V H",
+        "Costa Coffee",
+        "Der gute B\u00e4cker Krimphove",
+        "Combi",
+        "Coors bakery and cafe",
+        "Der Meister"
     ],
     "electronics": [
         "MediaMarkt",
         "Amazon",
-        "WHSmith"
+        "WHSmith",
+        "To Amazon Payments Europe S.C.A."
     ],
     "travel": [
         "VRR Verkehrsverbund Rhein-Ruhr",
@@ -133,7 +159,10 @@
         "Voi De",
         "TotalEnergies",
         "TIER",
-        "TIER"
+        "TIER",
+        "British Airways",
+        "Holland In Hotel",
+        "To DB Vertrieb GmbH"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
@@ -187,10 +216,15 @@
         "To GC re STEUERBOT"
     ],
     "energy": [
-        "To Vattenfall"
+        "To Vattenfall",
+        "To Vattenfall Europe"
     ],
     "gez": [
         "To Rundfunk ARD, ZDF, DRadio",
         "To Westdeutscher Rundfunk"
+    ],
+    "communication": [
+        "To Telekom Deutschland GmbH",
+        "DHL"
     ]
 }
