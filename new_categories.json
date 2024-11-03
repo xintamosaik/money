@@ -19,7 +19,9 @@
         "PAUL",
         "Retail inMotion",
         "Gustav Gr\u00fcn",
-        "Fondation Dentreprise Lo"
+        "Fondation Dentreprise Lo",
+        "Minimal",
+        "Mitchell Fielde"
     ],
     "money": [
         "Card Delivery Fee"
@@ -70,7 +72,17 @@
         "Espress Mo",
         "YORMA'S",
         "Kamps",
-        "Nordsee"
+        "Nordsee",
+        "Emsa Frischmarkt",
+        "The Real Greek",
+        "Sainsbury's",
+        "Minimal",
+        "Sainsbury's",
+        "Sainsbury's",
+        "McDonald's",
+        "Eat a Pitta",
+        "Sainsbury's",
+        "Shoryu Ramen Soho"
     ],
     "electronics": [
         "MediaMarkt",
@@ -90,12 +102,17 @@
         "Markant Tankstelle",
         "mobil.nrw",
         "Holland Hotel Inn",
-        "Hotels"
+        "Hotels",
+        "Hotel Westermann",
+        "lastminute.com",
+        "Leonardo Hotels",
+        "lastminute.com"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
         "Cash at Spk Vest Recklinghause",
-        "Cash at Postbank Martinistr. 1"
+        "Cash at Postbank Martinistr. 1",
+        "Cash at Ic Cash 01011201"
     ],
     "clothing": [
         "H&M",
@@ -108,7 +125,11 @@
         "Discover.London",
         "Nintendo",
         "Netflix",
-        "Nintendo"
+        "Nintendo",
+        "Amazon Prime",
+        "No.1 Harbourside",
+        "No.1 Harbourside",
+        "No.1 Harbourside"
     ],
     "games": [
         "gog.com",
@@ -123,6 +144,7 @@
     "it": [
         "Google",
         "Apple",
-        "Google"
+        "Google",
+        "Google Drive"
     ]
 }
