@@ -47,6 +47,7 @@ for idx, row in other_rows.iterrows():
             new_categories[category] = []
         new_categories[category].append(row['Description'])
 
+
 # Save new categories to the JSON file, merging them with any existing saved categories
 if os.path.exists('new_categories.json'):
     with open('new_categories.json', 'r') as json_file:
@@ -57,11 +58,30 @@ if os.path.exists('new_categories.json'):
                 existing_data[category].extend(descriptions)
             else:
                 existing_data[category] = descriptions
-    # Save the merged data back to the JSON file
+    # Save the merged data back to the JSON file and remove duplicates
     with open('new_categories.json', 'w') as json_file:
+        existing_data = {category: list(set(descriptions)) for category, descriptions in existing_data.items()}
         json.dump(existing_data, json_file, indent=4)
+
 else:
     # If no JSON file exists, save new categories directly
     with open('new_categories.json', 'w') as json_file:
         json.dump(new_categories, json_file, indent=4)
 
+
+# get all the food categories
+food = df[df['Category'] == 'Food']
+
+print(food)
+
+# same for tax
+tax = df[df['Category'] == 'Tax']
+
+print(tax)
+
+# sum tax
+tax_sum = tax['Amount'].sum()
+print(tax_sum)
+
+food_sum = food['Amount'].sum()
+print(food_sum)
