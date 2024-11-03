@@ -9,7 +9,10 @@
         "To EUR"
     ],
     "unknown": [
-        "Revolut Ltd"
+        "Revolut Ltd",
+        "Daniel Goldmann",
+        "TEDi",
+        "Me Group Germany"
     ],
     "money": [
         "Card Delivery Fee"
@@ -37,13 +40,20 @@
         "Lieferando",
         "PENNY",
         "Ditsch",
-        "REWE"
+        "REWE",
+        "ALDI",
+        "Cafe & Pavillion",
+        "Karadag Supermarkt"
     ],
     "electronics": [
         "MediaMarkt"
     ],
     "travel": [
-        "VRR Verkehrsverbund Rhein-Ruhr"
+        "VRR Verkehrsverbund Rhein-Ruhr",
+        "Eurowings",
+        "St Christopher's Inn",
+        "Voi Scooters",
+        "Voi Scooters"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
