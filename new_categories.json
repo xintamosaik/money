@@ -56,7 +56,11 @@
         "Payment from Ulrich Dellbrugge",
         "Michellehennig",
         "Miriamrzepka",
-        "Payment from Marzieh Habibi"
+        "Payment from Marzieh Habibi",
+        "To AHMAD SALIMI",
+        "Ersindalga",
+        "Payment from Ulf Dellbr\u00fcgge",
+        "Payment from Anna Dellbrugge"
     ],
     "transfer": [
         "To Ulf Dellbr\u00fcgge",
@@ -76,7 +80,8 @@
         "Apo. Am Rathausplatz",
         "ROSSMANN",
         "Zahnarztpraxis Farivar",
-        "M\u00fcnster Apotheke"
+        "M\u00fcnster Apotheke",
+        "Pharma-Ko\u00b3 Apotheke"
     ],
     "food": [
         "Lieferando",
@@ -166,7 +171,14 @@
         "Scilacci Gastronomie G",
         "Valinso",
         "Marugame Udon",
-        "Quarter Bakery"
+        "Quarter Bakery",
+        "Simple & Fresh",
+        "Aurora Vitos",
+        "Happy Monkeys",
+        "B\u00e4ckerei B\u00fcsch",
+        "Kenny S Kitchen",
+        "Baba Pizza Gri",
+        "DELiWAY"
     ],
     "electronics": [
         "MediaMarkt",
@@ -212,7 +224,10 @@
         "hotels.com",
         "Shell",
         "Hotel Nobis Asten",
-        "Esso"
+        "Esso",
+        "BlaBlaCar",
+        "Expedia",
+        "DFDS"
     ],
     "cash": [
         "Cash at Sparkasse Osnabrueck",
@@ -228,13 +243,17 @@
         "Cash at *deutsche Bank Ag",
         "Cash at Transact 22208330",
         "Cash at *deutsche Bank Ag",
-        "Cash at Transact 22207895"
+        "Cash at Transact 22207895",
+        "Cash at Transact 22207001",
+        "Cash at 49005738 Markthalle",
+        "Cash at Stadtsparkasse Duessel"
     ],
     "clothing": [
         "H&M",
         "Primark",
         "C&A",
-        "UNIQLO"
+        "UNIQLO",
+        "Decathlon"
     ],
     "fun": [
         "Spotify",
@@ -251,7 +270,8 @@
         "itch.io",
         "Crunchyroll",
         "Vue Cinemas",
-        "Smyths Toys Superstores"
+        "Smyths Toys Superstores",
+        "Kettelerhof"
     ],
     "games": [
         "gog.com",
@@ -277,7 +297,8 @@
         "OpenAI",
         "DigitalOcean",
         "DigitalOcean",
-        "To Netcup GmbH"
+        "To Netcup GmbH",
+        "Google One"
     ],
     "misc": [
         "To Stadt Recklinghausen",
@@ -286,7 +307,8 @@
         "ImmoScout24",
         "Michailidis Zeitschrif",
         "Vitty777",
-        "Barbier Soran Duessel"
+        "Barbier Soran Duessel",
+        "Amt Fuer Einwohnerwesen"
     ],
     "tax": [
         "To GC re STEUERBOT",
@@ -307,6 +329,7 @@
         "DHL",
         "To 1&1 Mail & Media GmbH",
         "To BID Bayerischer Inkasso Dienst GmbH",
-        "Deutsche Post"
+        "Deutsche Post",
+        "To Vodafone West GmbH"
     ]
 }
