@@ -16,5 +16,22 @@
     ],
     "payment": [
         "Payment from Qanuk Gmbh"
+    ],
+    "personal": [
+        "To Yasmin Behrens",
+        "To Anna Dellbr\u00fcgge"
+    ],
+    "transfer": [
+        "To Ulf Dellbr\u00fcgge",
+        "To Ulf Dellbr\u00fcgge"
+    ],
+    "insurance": [
+        "To R+V Allgemeine Vers. AG"
+    ],
+    "health": [
+        "dm drogerie"
+    ],
+    "food": [
+        "Lieferando"
     ]
 }
