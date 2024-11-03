@@ -31,7 +31,8 @@
         "Card Delivery Fee"
     ],
     "payment": [
-        "Payment from Qanuk Gmbh"
+        "Payment from Qanuk Gmbh",
+        "Payment from Matthias Lehwald"
     ],
     "personal": [
         "To Yasmin Behrens",
@@ -39,7 +40,8 @@
         "Payment from Yasmin Behrens",
         "Payment from Yasmin Behrens",
         "Payment from Monika Dellbrugge",
-        "To Monika Dellbr\u00fcgge"
+        "To Monika Dellbr\u00fcgge",
+        "To Ahmad Salimi"
     ],
     "transfer": [
         "To Ulf Dellbr\u00fcgge",
@@ -47,7 +49,8 @@
     ],
     "insurance": [
         "To R+V Allgemeine Vers. AG",
-        "To Adam Riese GmbH"
+        "To Adam Riese GmbH",
+        "Payment from R+v Allgemeine Versicherung Aktiengesellschaft"
     ],
     "health": [
         "dm drogerie",
@@ -172,7 +175,9 @@
         "Google",
         "Apple",
         "Google",
-        "Google Drive"
+        "Google Drive",
+        "GitHub",
+        "OpenAI"
     ],
     "misc": [
         "To Stadt Recklinghausen",
