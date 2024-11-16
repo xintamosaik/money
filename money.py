@@ -132,4 +132,6 @@ print("\nExpenses by category:")
 # print only the amounts and the percentages 
 print(expenses_by_category[['Amount', 'Percentage']])
 
+# put the data in a new csv file
+expenses_by_category[['Amount', 'Percentage']].to_csv('expenses_by_category.csv')
 
