@@ -4,7 +4,7 @@ import os
 
 
 # Load the data
-df = pd.read_csv('2024-12.csv')
+df = pd.read_csv('money-full.csv')
 df['Category'] = 'Other'
 
 # Define initial categories
