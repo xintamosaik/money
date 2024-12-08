@@ -4,7 +4,7 @@ import os
 
 
 # Load the data
-df = pd.read_csv('money.csv')
+df = pd.read_csv('2024-12.csv')
 df['Category'] = 'Other'
 
 # Define initial categories
@@ -83,10 +83,11 @@ print (f"Last date: {last_date}")
 # how many years, months and days between the first and the last date
 first_date = pd.to_datetime(first_date)
 last_date = pd.to_datetime(last_date)
-days = (last_date - first_date).days
-years = days // 365
-months = (days % 365) // 30
-days = (days % 365) % 30
+total_days = (last_date - first_date).days
+years = total_days // 365
+months = (total_days % 365) // 30
+total_months = (years * 12) + months
+days = (total_days % 365) % 30
 print (f"\nBetween {first_date} and {last_date} there are {years} years, {months} months and {days} days")
 
 total_rows_total = df.shape[0]
@@ -123,13 +124,23 @@ print (f"Total expenses: ${expenses_sum:.2f}")
 
 # percentages of expenses
 expenses_by_category = expenses.groupby('Category').sum()
+# percentages
 expenses_by_category['Percentage'] = expenses_by_category['Amount'] / expenses_sum * 100
 expenses_by_category = expenses_by_category.sort_values('Amount', ascending=False)
+# monthly
+expenses_by_category['Monthly'] = expenses_by_category['Amount'] / total_months
 
 print("\nExpenses by category:")
 # print only the amounts and the percentages 
-print(expenses_by_category[['Amount', 'Percentage']])
+print(expenses_by_category[['Amount', 'Percentage', 'Monthly']])
 
 # put the data in a new csv file
-expenses_by_category[['Amount', 'Percentage']].to_csv('expenses_by_category.csv')
+expenses_by_category[['Amount', 'Percentage', 'Monthly']].to_csv('expenses_by_category.csv')
+print(first_date)
+print(last_date)
+print((last_date - first_date).days)
+
+
+
+print(total_months)
 
