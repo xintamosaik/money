@@ -8,9 +8,7 @@ df = pd.read_csv('money.csv')
 df['Category'] = 'Other'
 
 # Define initial categories
-categories = {
-   
-}
+categories = {}
 
 # Load additional categories from JSON if the file exists
 if os.path.exists('new_categories.json'):
